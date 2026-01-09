@@ -1,5 +1,16 @@
 <script setup>
 import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t, locale } = useI18n()
+const currentLang = ref(locale.value)
+
+// Hàm đổi ngôn ngữ
+const changeLanguage = (lang) => {
+  locale.value = lang 
+  currentLang.value = lang
+  localStorage.setItem('lang', lang)
+}
 
 defineProps({
   msg: String,
@@ -9,7 +20,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ $t('common.hello') }}</h1>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
