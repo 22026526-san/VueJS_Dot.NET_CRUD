@@ -1,0 +1,16 @@
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\bin\Debug\net8.0\Backend.Infrastructure.deps.json
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\bin\Debug\net8.0\Backend.Infrastructure.dll
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\bin\Debug\net8.0\Backend.Infrastructure.pdb
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\bin\Debug\net8.0\Backend.Core.dll
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\bin\Debug\net8.0\Backend.Core.pdb
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.csproj.AssemblyReference.cache
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.AssemblyInfoInputs.cache
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.AssemblyInfo.cs
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.sourcelink.json
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend..20A4AD1D.Up2Date
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.dll
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\refint\Backend.Infrastructure.dll
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\Backend.Infrastructure.pdb
+F:\Fresher-misa\VueJS_Dot.NET_CRUD\backend\Backend.Infrastructure\obj\Debug\net8.0\ref\Backend.Infrastructure.dll
