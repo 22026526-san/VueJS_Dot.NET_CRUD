@@ -1,2 +1,29 @@
 /* các style liên quan đến input form button được sử dụng ở các component */
 /* css lại style từ ui của thư viện */
+
+/* Ghi đè class gốc của Ant Design */
+.ant-btn {
+  height: 36px !important;
+  line-height: 1.5 !important;
+  padding:0 16px !important;
+  border-radius: 4px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-btn:focus, 
+.ant-btn:active, 
+.ant-btn.active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* duong ke ngang */
+.divider {
+  width: 100%;
+  height: 1px;               
+  background-color: #f0f0f0; 
+  border: none;              
+  margin: 5px 0;           
+}

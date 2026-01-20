@@ -1,6 +1,152 @@
 {
   "common": {
-    "hello": "Hello",
-    "login": "Login"
+    "usage_purpose": {
+      "commercial": "Commercial Transport",
+      "non_commercial": "Non-commercial Transport"
+    },
+    "car_type": {
+      "passenger": "Passenger Car",
+      "practice": "Driving Practice Car",
+      "ambulance": "Ambulance",
+      "money_transport": "Money Transport Vehicle",
+      "special_zone": "Airport/Port/Industrial Zone Vehicle",
+      "truck": "Truck",
+      "special_other": "Other Special Vehicle",
+      "pickup": "Pickup Truck"
+    },
+    "insurance_type": {
+      "car": "Car",
+      "bike": "Motorbike",
+      "health": "Health",
+      "fire": "Fire & Explosion",
+      "goods": "Goods",
+      "travel": "Travel",
+      "accident": "Accident"
+    }
+  },
+  "header": {
+    "appName": "MISA Insurance",
+    "hotline": "Hotline: 0903 475 058",
+    "menu": {
+      "insuranceProducts": "Insurance Products",
+      "profileManagement": "Insurance Profile Management"
+    }
+  },
+  "sidebar": {
+    "title": "Insurance Providers"
+  },
+  "productCard": {
+    "name_tnds": "Civil Liability Insurance",
+    "price_from": "From",
+    "month": "month",
+    "coverage_upto": "Coverage up to",
+    "duration_upto": "Duration up to",
+    "year": "years",
+    "reviews": "reviews",
+    "sold_success": "registrations successful",
+    "register_btn": "Register",
+    "view_detail": "View Details"
+  },
+  "car_item": {
+    "title": "Car {index}",
+    "delete": "Delete",
+    "insurance_info": "Insurance Information",
+    "insurance_desc": "Fill in the details below to get a quote",
+    "usage_purpose": "Usage Purpose",
+    "usage_purpose_placeholder": "Select usage purpose",
+    "vehicle_type": "Vehicle Type",
+    "vehicle_type_placeholder": "Select vehicle type",
+    "seat_count": "Seat Count",
+    "seat_count_placeholder": "Select seat count",
+    "date_placeholder": "Select date",
+    "payload": "Payload Capacity",
+    "payload_placeholder": "Enter payload",
+    "unit_kg": "Kg",
+    "duration": "Insurance Duration",
+    "duration_year": "{n} year",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "view_benefit": "View Insurance Benefits",
+    "insurance_fee": "Insurance Fee",
+    
+    "reg_info": "Vehicle Registration Info",
+    "reg_desc": "Fill in information from registration paper or upload a photo to complete the profile",
+    "upload_guide": "Auto-fill from vehicle registration (cavet)",
+    "upload_format": "Format: JPG, JPEG, PNG, BMP, PDF, DocX, DOC. Upload: 1 file",
+    "upload_size": "Max size: 5MB",
+    "btn_upload": "Upload",
+    "btn_camera": "Take Photo",
+    
+    "manufacturer": "Manufacturer",
+    "manufacturer_placeholder": "Select manufacturer",
+    "model": "Model",
+    "model_placeholder": "Select model",
+    "chassis_num": "Chassis Number",
+    "chassis_num_placeholder": "Enter chassis number",
+    "engine_num": "Engine Number",
+    "engine_num_placeholder": "Enter engine number",
+    "license_plate": "License Plate",
+    "no_license_plate": "No license plate",
+    "license_plate_placeholder": "Enter license plate",
+    "validation": {
+      "required": "This field is required",
+      "select_duration": "Please select the duration",
+      "select_start_date": "Please select the start date",
+      "seat_range": "Seat count must be between {min} and {max}",
+      "weight_range": "Payload must be between {min} and {max}"
+    }
+  },
+  "order": {
+    "product_title": "Compulsory Civil Liability Insurance",
+    "summary_title": "Order Summary",
+    "fee_label": "Insurance Fee",
+    "car_item_name": "Car {index}",
+    "total_payment": "Total Payment",
+    "vat_included": "(VAT included)",
+    "btn_submit": "Submit Order",
+    "btn_cancel": "Cancel",
+    "btn_add_car": "Add Another Vehicle"
+  },
+  "order_detail": {
+    "page_title": "Compulsory Civil Liability Insurance",
+    "status_pending": "Processing",
+    "received_msg": "Please wait a moment",
+    "summary_title": "Order Summary",
+    "car_index": "Car #{index}",
+    "license_plate": "License Plate",
+    "duration": "Duration",
+    "fee": "Fee",
+    "total_payment": "Total Payment",
+    "order_status": {
+      "pending": {
+        "title": "Insurance application received",
+        "subtitle": "Please wait a moment while we process your request."
+      },
+      "completed": {
+        "title": "Transaction successful",
+        "subtitle": "Thank you for choosing our services."
+      },
+      "failed": {
+        "title": "Transaction failed",
+        "subtitle": "Something went wrong. Please try again or contact support."
+      }
+    }
+  },
+  "home_page": {
+    "title": "Car Insurance Types",
+    "type_tnds": "Compulsory Civil Liability Ins.",
+    "type_vcx": "Physical Damage Insurance"
+  },
+  "notification": {
+    "title": "Notifications",
+    "empty": "No notifications yet.",
+    "total_amount": "Total Amount",
+    "status_label": "Status",
+    "view_detail": "View Details",
+    "status": {
+      "pending": "Pending",
+      "failed": "Failed",
+      "completed": "Completed"
+    }
   }
 }

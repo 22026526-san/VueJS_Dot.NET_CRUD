@@ -7,7 +7,7 @@ const axiosClient = axios.create({
     headers: {
         'Content-Type': 'application/json',
     },
-    // Timeout sau 10s nếu mạng lag
+    // Timeout sau 10s 
     timeout: 10000, 
 });
 
@@ -30,10 +30,9 @@ axiosClient.interceptors.response.use(
         return response.data;
     },
     (error) => {
-        // Xử lý lỗi chung (VD: 401 thì đá về trang login)
+        // Xử lý lỗi chung 
         if (error.response?.status === 401) {
             localStorage.removeItem('access_token');
-            window.location.href = '/login';
         }
         return Promise.reject(error);
     }

@@ -1,6 +1,152 @@
 {
   "common": {
-    "hello": "Xin chào",
-    "login": "Đăng nhập"
+    "usage_purpose": {
+      "commercial": "Kinh doanh vận tải",
+      "non_commercial": "Không kinh doanh vận tải"
+    },
+    "car_type": {
+      "passenger": "Xe chở người",
+      "practice": "Xe tập lái chở người",
+      "ambulance": "Xe cứu thương",
+      "money_transport": "Xe chở tiền",
+      "special_zone": "Xe hoạt động trong cảng, KCN, sân bay...",
+      "truck": "Xe chở hàng (xe tải)",
+      "special_other": "Xe ô tô chuyên dùng khác",
+      "pickup": "Xe bán tải (Pickup)"
+    },
+    "insurance_type": {
+      "car": "Ô tô",
+      "bike": "Xe máy",
+      "health": "Sức khỏe",
+      "fire": "Cháy nổ",
+      "goods": "Hàng hóa",
+      "travel": "Du lịch",
+      "accident": "Tai nạn"
+    }
+  },
+  "header": {
+    "appName": "MISA Insurance",
+    "hotline": "Hotline: 0903 475 058",
+    "menu": {
+      "insuranceProducts": "Sản phẩm bảo hiểm",
+      "profileManagement": "Quản lý hồ sơ bảo hiểm"
+    }
+  },
+  "sidebar": {
+    "title": "Tổ chức bảo hiểm"
+  },
+  "productCard": {
+    "name_tnds": "Bảo hiểm bắt buộc TNDS",
+    "price_from": "Chỉ từ",
+    "month": "tháng",
+    "coverage_upto": "Quyền lợi BH tới",
+    "duration_upto": "Thời hạn lên tới",
+    "year": "năm",
+    "reviews": "đánh giá",
+    "sold_success": "KH đã đăng ký thành công",
+    "register_btn": "Đăng ký bảo hiểm",
+    "view_detail": "Xem chi tiết"
+  },
+  "car_item": {
+    "title": "Xe số {index}",
+    "delete": "Xóa",
+    "insurance_info": "Thông tin bảo hiểm",
+    "insurance_desc": "Điền đầy đủ thông tin dưới đây để nhận báo giá",
+    "usage_purpose": "Mục đích sử dụng",
+    "usage_purpose_placeholder": "Chọn mục đích sử dụng",
+    "vehicle_type": "Loại xe",
+    "vehicle_type_placeholder": "Chọn loại xe",
+    "date_placeholder": "Chọn ngày",
+    "seat_count": "Số chỗ ngồi",
+    "seat_count_placeholder": "Chọn số chỗ ngồi",
+    "payload": "Trọng tải",
+    "payload_placeholder": "Điền trọng tải xe",
+    "unit_kg": "Kg",
+    "duration": "Thời hạn bảo hiểm",
+    "duration_year": "{n} năm",
+    "start_date": "Ngày bắt đầu",
+    "end_date": "Ngày kết thúc",
+    "view_benefit": "Xem quyền lợi bảo hiểm",
+    "insurance_fee": "Phí bảo hiểm",
+    
+    "reg_info": "Thông tin đăng ký xe",
+    "reg_desc": "Điền thông tin trên giấy đăng ký xe hoặc chụp ảnh đăng ký xe/cà vẹt để hoàn tất hồ sơ",
+    "upload_guide": "Điền thông tin tự động từ giấy đăng ký (cà-vẹt)",
+    "upload_format": "Định dạng: JPG, JPEG, PNG, BMP, PDF, DocX, DOC. Tải lên: 1 tệp",
+    "upload_size": "Dung lượng tối đa: 5MB",
+    "btn_upload": "Tải ảnh",
+    "btn_camera": "Chụp ảnh",
+    
+    "manufacturer": "Hãng xe",
+    "manufacturer_placeholder": "Chọn hãng xe",
+    "model": "Hiệu xe",
+    "model_placeholder": "Chọn hiệu xe",
+    "chassis_num": "Số khung",
+    "chassis_num_placeholder": "Nhập số khung",
+    "engine_num": "Số máy",
+    "engine_num_placeholder": "Nhập số máy",
+    "license_plate": "Biển số xe",
+    "no_license_plate": "Xe chưa có biển số",
+    "license_plate_placeholder": "Nhập biển số xe",
+    "validation": {
+      "required": "Giá trị không được bỏ trống",
+      "select_duration": "Vui lòng chọn thời hạn",
+      "select_start_date": "Vui lòng chọn ngày bắt đầu",
+      "seat_range": "Số chỗ ngồi phải từ {min} đến {max}",
+      "weight_range": "Trọng tải từ {min} đến {max}"
+    }
+  },
+  "order": {
+    "product_title": "Bảo hiểm bắt buộc TNDS xe ô tô",
+    "summary_title": "Tóm tắt đơn hàng",
+    "fee_label": "Phí bảo hiểm",
+    "car_item_name": "Xe số {index}",
+    "total_payment": "Tổng thanh toán",
+    "vat_included": "(Đã bao gồm VAT)",
+    "btn_submit": "Gửi đơn",
+    "btn_cancel": "Thoát",
+    "btn_add_car": "Thêm xe mua bảo hiểm"
+  },
+  "order_detail": {
+    "page_title": "Bảo hiểm bắt buộc TNDS xe ô tô",
+    "status_pending": "Đang tạo đơn",
+    "provider_label": "Tổ chức cấp bảo hiểm",
+    "summary_title": "Tóm tắt đơn",
+    "car_index": "Xe số {index}",
+    "license_plate": "Biển số",
+    "duration": "Thời hạn",
+    "fee": "Phí",
+    "total_payment": "Tổng thanh toán",
+    "order_status": {
+      "pending": {
+        "title": "Đơn mua bảo hiểm đã được tiếp nhận.",
+        "subtitle": "Quý khách vui lòng chờ trong giây lát."
+      },
+      "completed": {
+        "title": "Giao dịch thành công",
+        "subtitle": "Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi."
+      },
+      "failed": {
+        "title": "Giao dịch thất bại",
+        "subtitle": "Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi."
+      }
+    }
+  },
+  "home_page": {
+    "title": "Loại bảo hiểm ô tô",
+    "type_tnds": "Bảo hiểm bắt buộc TNDS",
+    "type_vcx": "Bảo hiểm vật chất xe"
+  },
+  "notification": {
+    "title": "Thông báo",
+    "empty": "Chưa có thông báo nào.",
+    "total_amount": "Tổng đơn",
+    "status_label": "Trạng thái",
+    "view_detail": "Xem chi tiết",
+    "status": {
+      "pending": "Đang tạo đơn",
+      "failed": "Thất bại",
+      "completed": "Hoàn tất"
+    }
   }
 }

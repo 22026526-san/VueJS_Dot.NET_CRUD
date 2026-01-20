@@ -1,0 +1,17 @@
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+
+# Node modules (Frontend)
+node_modules/
+dist/
+
+# Env files
+.env
+.env.local

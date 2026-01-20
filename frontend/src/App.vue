@@ -1,9 +1,15 @@
 <script setup>
-import { computed } from 'vue';
+import { computed,defineComponent } from 'vue';
 import { useRoute } from 'vue-router';
 import DefaultLayout from './layout/DefaultLayout.vue';
 
 const route = useRoute();
+
+const EmptyLayout = defineComponent({
+  setup(_, { slots }) {
+    return () => slots.default && slots.default();
+  }
+});
 
 const layout = computed(() => {
   if (route.meta.layout) {
@@ -11,7 +17,7 @@ const layout = computed(() => {
   }
   
   if (route.meta.layout === null) {
-    return 'div'; 
+    return EmptyLayout; 
   }
 
   return DefaultLayout;

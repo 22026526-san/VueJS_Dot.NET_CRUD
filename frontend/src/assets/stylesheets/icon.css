@@ -1,1 +1,107 @@
 /* style icon */
+.icon-logo {
+    height: 36px;
+    aspect-ratio: 1 / 1;
+    background: url(../icons/Logo.svg) no-repeat center;
+    background-size: 36px 36px;
+    cursor: pointer;
+}
+
+.icon-badge-new{
+    height: 48px;
+    aspect-ratio: 1 / 1;
+    background: url(../icons/TagNew.svg) no-repeat center;
+    background-size: 48px 48px;
+    cursor: pointer;   
+}
+.icon-TNDS{
+    height: 30px;
+    aspect-ratio: 1 / 1;
+    background: url(../icons/IconTNDS.svg) no-repeat center;
+    background-size: 30px 30px;
+    cursor: pointer;   
+}
+.icon-VCX{
+    height: 30px;
+    aspect-ratio: 1 / 1;
+    background: url(../icons/IconVCX.svg) no-repeat center;
+    background-size: 30px 30px;
+    cursor: pointer;  
+}
+
+.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;  
+    height: 36px; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.icon-btn:hover {
+    background-color: #F2F2F2;
+}
+
+.icon-btn:active {
+    background-color: #EBEBEB;
+}
+
+.icon-24 {
+    width: 24px; 
+    height: 24px;
+    min-width: 24px;
+    background-color: #707070;
+    mask-image: url("../../assets/icons/ICON.svg");
+    mask-repeat: no-repeat;
+}
+
+.icon-20 {
+    width: 20px; 
+    height:20px;
+    min-width: 20px;
+    background-color: #707070;
+    mask-image: url("../../assets/icons/ICON.svg");
+    mask-repeat: no-repeat;
+}
+
+.icon-setting{
+    mask-position: -48px -120px;
+}
+.icon-helpmenu{
+    mask-position: -24px -120px;
+}
+.icon-dropDown{
+    mask-position: -100px 1px;
+}
+.icon-dropUp{
+    mask-position: -122px 0px;
+}
+.icon-plus{
+    mask-position: -220px 0px;
+}
+.icon-upload-img{
+    mask-position: -24px -144px;
+}
+.icon-X{
+    mask-position: -280px 0px;
+}
+.icon-back{
+    mask-position: -158px 3px;
+}
+.icon-info{
+    mask-position: -260px -40px;
+}
+.icon-notification  {
+    mask-position: -72px -120px;
+}
+.icon-error  {
+    mask-position: -240px -40px;
+}
+.icon-success  {
+    mask-position: -180px -40px;
+}
+.icon-warning  {
+    mask-position: -260px -40px;
+}
