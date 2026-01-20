@@ -1,6 +1,6 @@
 using System.Data;
 using Microsoft.Extensions.Configuration;
-using MySqlConnector; 
+using MySqlConnector;
 
 namespace Backend.Infrastructure.Data
 {
@@ -14,7 +14,7 @@ namespace Backend.Infrastructure.Data
         {
             _configuration = configuration;
 
-            _connectionString = _configuration.GetConnectionString("DefaultConnection");
+            _connectionString = _configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
         }
 
         public IDbConnection CreateConnection()
